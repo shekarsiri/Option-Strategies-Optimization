@@ -1,0 +1,132 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>9b95a8ff-1df7-4336-bf62-d7b136739f2e</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonAsOOLtest</Name>
+    <RootNamespace>PythonAsOOLtest</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ExecutableModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssetModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrategyListFactoryModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StockModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy13.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy14.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy15.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy21.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy22.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy23.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy24.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy31.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy32.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy33.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy34.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy35.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy36.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy37.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy38.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy41.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy42.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy43.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy44.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\Strategy45.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\StrategyBaseModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Code Archive.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\StrategyModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy_Folder\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Misc\" />
+    <Folder Include="Strategy_Folder\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
